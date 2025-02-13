@@ -10,6 +10,8 @@ program
   .action((projectName) => {
     console.log("Project Name is: ", projectName);
 
+    console.log("Creating a ReactJs frontend");
+    console.log("Creating an ExpressJS backend");
     const projectPath = path.resolve(process.cwd(), projectName);
     const templatePath = path.join(__dirname, "template");
 
@@ -17,6 +19,9 @@ program
     fs.copySync(templatePath, projectPath);
 
     console.log("Project setup complete!");
+
+    console.log("cd into both folders, and run: ");
+    console.log("npm install");
   });
 
 program.parse(process.argv);
