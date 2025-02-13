@@ -1,0 +1,24 @@
+{
+  "name": "@afnank19/create-afn-app",
+  "version": "0.0.2",
+  "main": "index.js",
+  "bin": {
+    "create-afn-app": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "react query",
+    "zustand"
+  ],
+  "author": "Afnan Khalid",
+  "license": "MIT",
+  "description": "An opinionated way to start a ReactJS frontend, and ExpressJS frontend, architectured for simplicity, best practices and rapid prototyping",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0"
+  }
+}
